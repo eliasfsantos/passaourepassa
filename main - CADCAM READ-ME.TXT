@@ -1,0 +1,48 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'main.LYT'.
+CADCAM generated at 09:57:53 on terça-feira, 27 de fevereiro de 2018.
+
+File List
+---------
+Bottom Copper           : main - CADCAM Bottom Copper.TXT
+Top Silk Screen         : main - CADCAM Top Silk Screen.TXT
+Bottom Solder Resist    : main - CADCAM Bottom Solder Resist.TXT
+Bottom SMT Paste Mask   : main - CADCAM Bottom SMT Paste Mask.TXT
+Drill                   : main - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=20th                                      DRAW
+D11	CIRCLE	D=12th                                      DRAW
+D12	CIRCLE	D=2.5th                                     DRAW
+D13	CIRCLE	D=10th                                      DRAW
+D14	SMT	W=80th                H=25th                FLASH
+D15	SMT	W=61th                H=24th                FLASH
+D16	CIRCLE	D=80th                                      FLASH
+D17	SMT	W=50th                H=40th                FLASH
+D18	SMT	W=50th                H=100th               FLASH
+D19	SMT	W=40th                H=50th                FLASH
+D70	CIRCLE	D=8th                                       DRAW
+D71	SMT	W=100th               H=45th                FLASH
+D20	CIRCLE	D=100th                                     FLASH
+D21	SMT	W=70th                H=60th                FLASH
+D22	SMT	W=70th                H=120th               FLASH
+D23	SMT	W=60th                H=70th                FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	30th (0-15)
+T02	118.1th (0-15)
+
+
+[END OF FILE]
